@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="screen-orientation" content="portrait" />
+    <link rel="stylesheet" href="./css/index.css">
+
+
+</head>
+
+<body>
+    <div class="overallDiv">
+        <div class="sendtime">Today&nbsp;01:44</div>
+        <div class="oppositeGroup">
+            <div class="opposite-portrait">
+                <img src="./images/portrait.png" alt="">
+            </div>
+            <div class="opposite-msg-window">
+                <div class="msg-title">Hi, I am your assistant：</div>
+                <div class="msg-detail">
+                    <div class="msg-content">
+                        <p>Nice to meet you.</p>
+                        <p>How can I help you today?</p>
+                        <p>Feel free to ask me anything.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="myGroup">
+            <div class="my-portrait">
+                <img src="./images/portrait.png" alt="">
+            </div>
+            <div class="my-msg-window">
+                <div class="msg-detail">
+                    <p>WOW</p>
+                </div>
+            </div>
+        </div>
+        <div class="myGroup">
+            <div class="my-portrait">
+                <img src="./images/portrait.png" alt="">
+            </div>
+            <div class="my-msg-window">
+                <div class="msg-detail">
+                    <p>Very Interesting</p>
+                </div>
+            </div>
+        </div>
+        <div class="opposite-normalMsg">
+            <div class="opposite-portrait">
+                <img src="./images/portrait.png" alt="">
+            </div>
+            <div class="opposite-msg-window">
+                <div class="msg-detail">
+                    <p>Yes, of course. I'm the best!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="chatbox">
+            <div class="chatboxGroup">
+                <!--  <div class="chatbox-info"><p>来问点什么吧...</p></div>  -->
+                <form action="">
+                    <input type="value" name="chatInput" placeholder="ASK ME ANYTHING...">
+                </form>
+                <div class="chatbox-entertext">Send</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/zepto.js"></script>
+    <script>
+        var ow = document.documentElement.clientWidth;
+        if (ow > 540) {
+            ow = 540
+        }
+        window.document.documentElement.style.fontSize = 100 * ow / 377 + "px";
+
+    </script>
+</body>
+
+</html>
