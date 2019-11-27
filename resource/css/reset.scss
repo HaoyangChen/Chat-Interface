@@ -1,0 +1,58 @@
+body,
+div,
+span,
+header,
+footer,
+nav,
+section,
+aside,
+article,
+ul,
+dl,
+dt,
+dd,
+li,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+b,
+textarea,
+button,
+input,
+select,
+figure,
+figcaption,
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    color: #333;
+    font-weight: normal;
+    font-family: "PingFangSC-Regular";
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    &:hover {
+        outline: none;
+    }
+}
+
+html,
+body,
+ {
+    height: 100%;
+    font: 12px/1 PingFangSC-Regular, Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}

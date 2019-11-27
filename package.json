@@ -1,0 +1,29 @@
+{
+  "name": "ued",
+  "version": "1.0.0",
+  "path": "newued/demo",
+  "devDependencies": {
+    "connect": "^3.4.1",
+    "end-of-stream": "^1.1.0",
+    "gulp": "^3.6.1",
+    "gulp-cache": "^0.4.3",
+    "gulp-clean": "^0.3.2",
+    "gulp-connect": "^3.2.2",
+    "gulp-css-spritesmith": "0.0.5",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename-md5": "0.0.1",
+    "gulp-replace": "^0.5.4",
+    "gulp-replace-md5": "0.0.11",
+    "gulp-compass": "^2.1.0",
+    "gulp-ruby-sass": "^1.0.1",
+    "gulp-uglify": "^1.5.3",
+    "http-server": "^0.9.0",
+    "gulp-rename":"1.2.2 ",
+    "opn": "^4.0.1",
+    "gulp-cssmin":"0.1.7"
+  },
+  "dependencies": {
+    "normalize.css": "^3.0.3"
+  }
+}
